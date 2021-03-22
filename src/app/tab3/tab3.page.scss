@@ -1,16 +1,32 @@
-.head1{
+.head2{
     --background: indianred;
-    color: burlywood;
+    color: rgb(248, 231, 209);
 }big{
-    font-size: 40px;
-    margin-left: 25px;
+    font-size: 30px;
+    margin-left: 30px;
 }
 ion-card{
-    margin-left: 175px;
-    width: 80%;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 40%;
+    border: 2px solid burlywood;
+    float: left;
 }
-ion-card:hover{
-    border: 1px solid burlywood;
-    width: 85%;
+ion-list{
+    border: 2px solid burlywood;
+    width: 40%;
+    float: right;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+ion-button{
+    width: 70%;
+    margin-bottom: 30px;
+}
+ion-list:hover {
+    border: 2px solid burlywood;
+}
+h2{
+    margin-bottom: 8px;
+}
 
-}
