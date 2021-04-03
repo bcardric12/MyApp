@@ -1,0 +1,22 @@
+.message{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    white-space: pre-wrap;
+}
+.mysmg{
+    background: burlywood;
+    color: crimson;
+}
+.msgbox{
+    width: 100%;
+    border: 2px solid var(--ion-color-medium);
+    border-radius: 10px;
+    background: burlywood;
+    resize: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.msgbutt{
+    background: blanchedalmond;
+}
