@@ -61,7 +61,7 @@ export class Tab3Page implements OnInit{
   }
   deleteContact(id) {
     console.log(id)
-    if (window.confirm('Are you sure you want to delete this contact?')) {
+    if (window.confirm('Do you want to block this contact?')) {
       this.contService.deleteContact(id)
     }
   }
