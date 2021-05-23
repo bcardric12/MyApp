@@ -1,26 +1,27 @@
 .head2{
     --background: indianred;
     color: rgb(248, 231, 209);
-}big{
-    font-size: 30px;
-    margin-left: 30px;
+    text-align: center;
+}
+big{
+    font-size: 40px;
+    margin-left: 25px;
 }
 ion-card{
-    margin-top: 60px;
     margin-left: 100px;
     width: 40%;
-    border: 2px solid burlywood;
     float: left;
+    border: 2px solid burlywood;
 }
 ion-list{
-    border: 2px solid burlywood;
     width: 40%;
     float: right;
-    margin-right: 80px;
-    margin-top: 60px;
+    margin-right: 100px;
+    margin-top: 9px;
+    border: 2px solid burlywood;
 }
 ion-button{
-    width: 70%;
+    width: 80%;
     margin-bottom: 30px;
 }
 ion-list:hover {
@@ -29,4 +30,3 @@ ion-list:hover {
 h2{
     margin-bottom: 8px;
 }
-
